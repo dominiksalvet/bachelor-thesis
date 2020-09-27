@@ -4,6 +4,8 @@
 
 Plný text práce je k dostání v souboru [bachelor-thesis.pdf](bachelor-thesis.pdf). Pro funkční odkazy je doporučeno soubor stáhnout a otevřít lokálně.
 
+Prezentace z obhajoby práce je publikována na [Speaker Deck](https://speakerdeck.com/dominiksalvet/navrh-modelu-procesoru). Obsahuje pouze nejdůležitější informace.
+
 ## Licence
 
 Tato práce je licencována pod licencí [Apache License 2.0](license).
