@@ -1,0 +1,7 @@
+Navrhněte architekturu 64bitového procesoru a popište ho v jazyce VHDL pro implementaci do vhodného hradlového pole FPGA. Navržená struktura procesoru musí obsahovat:
+- pipelining instrukcí,
+- aritmetiku v pevné řádové čárce,
+- efektivní strukturu sady pracovních registrů,
+- rozhraní pro komunikaci s operační pamětí.
+
+V experimentální části doložte funkčnost navržené struktury pomocí předem zvolených testovacích (testbench) souborů.
