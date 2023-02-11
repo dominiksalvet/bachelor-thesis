@@ -1,11 +1,16 @@
-# Návrh modelu procesoru
+# Design of the Processor Model
 
-> Cílem této práce je navrhnout [model 64bitového procesoru](https://github.com/dominiksalvet/risc63) vlastní instrukční sady a doložit jeho funkčnost. Tato instrukční sada respektuje RISC principy při snaze zvýšit hustotu výsledného kódu. Za tímto účelem definuje výhradně instrukční slova s délkou 16 bitů. Referenční model implementující tuto instrukční sadu je popsán v [jazyce VHDL](https://github.com/dominiksalvet/uvod_do_vhdl) pomocí základního pětistupňového pipeliningu. Lze ho simulovat pomocí programu GHDL a, s malým úsilím, implementovat do hradlového pole dostatečné kapacity. Správné chování procesoru a jeho stěžejních modulů je doloženo pomocí test bench souborů.
+> **Abstract in English:** The goal of this work is to design a 64-bit processor model of a custom instruction set architecture and verify its operation. The instruction set respects RISC principles while putting effort into ~~decreasing~~ increasing final code density. For this purpose, it defines 16-bit instruction words only. The reference model, which implements this instruction set, is described in VHDL language using basic five-stage pipelining. It may be simulated using GHLD software and, with little effort, implemented into gate array of sufficient capacity. The correct behavior of the processor and its key modules is verified by test bench files.
 
-Plný text práce je k dostání v souboru [bachelor-thesis.pdf](bachelor-thesis.pdf). Pro funkční odkazy je doporučeno soubor stáhnout a otevřít lokálně.
+> **Abstrakt v češtině:** Cílem této práce je navrhnout model 64bitového procesoru vlastní instrukční sady a doložit jeho funkčnost. Tato instrukční sada respektuje RISC principy při snaze zvýšit hustotu výsledného kódu. Za tímto účelem definuje výhradně instrukční slova s délkou 16 bitů. Referenční model implementující tuto instrukční sadu je popsán v jazyce VHDL pomocí základního pětistupňového pipeliningu. Lze ho simulovat pomocí programu GHDL a, s malým úsilím, implementovat do hradlového pole dostatečné kapacity. Správné chování procesoru a jeho stěžejních modulů je doloženo pomocí test bench souborů.
 
-Prezentace z obhajoby práce je publikována na [SlideShare](https://www.slideshare.net/DominikSalvet/nvrh-modelu-procesoru). Obsahuje pouze nejdůležitější informace.
+## Relevant Sources
 
-## Licence
+* [**Publication home**](https://is.muni.cz/th/uqqoh/?lang=en)
+* [Repository copy of thesis text (in Czech)](bachelor-thesis.pdf)
+* [Processor source files](https://github.com/dominiksalvet/risc63)
+* [Defense presentation (in Czech)](https://www.slideshare.net/DominikSalvet/nvrh-modelu-procesoru)
 
-Tato práce je licencována pod licencí [Apache License 2.0](license).
+## License
+
+This work is licensed under the [Apache License 2.0](license).
